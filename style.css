@@ -926,6 +926,7 @@ header nav .toggle:hover ul {
   z-index: 10;
   display: flex;
   justify-content: space-between;
+  align-items: center;
 }
 
 @media (max-width:991px) {
@@ -945,6 +946,7 @@ header nav .toggle:hover ul {
 .subscribe .container .form {
   display: flex;
   position: relative;
+  width: 500px;
   max-width: 100%;
 }
 
@@ -961,6 +963,7 @@ header nav .toggle:hover ul {
   padding: 20px 20px 20px 60px;
   border-right: none;
   caret-color: var(--main-cyan);
+  width: calc(100% - 130px);
 }
 
 .subscribe .container .form input[type="email"]::placeholder {
@@ -979,6 +982,7 @@ header nav .toggle:hover ul {
   border: 1px solid white;
   border-left: none;
   text-transform: uppercase;
+  width: 130px;
 }
 
 .subscribe .container p {
